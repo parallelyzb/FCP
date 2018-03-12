@@ -28,8 +28,8 @@ int main(void){
 	string filename2 = "C:\\Users\\yanzhibo\\Desktop\\cost_10.txt";
 	vector<vector<int>> accessArray;
 	vector<vector<int>> costArray;
-	readAccess(filename1, filename2, accessArray, costArray);
-	//readAccess(filename1, accessArray, costArray);
+	//readAccess(filename1, filename2, accessArray, costArray);
+	readAccess(filename1, accessArray, costArray);
 	//displayAccess(accessArray);
 
 	Graph *G;
